@@ -11,7 +11,7 @@ An implementation of a hybrid symbol table that provides hash table access, inde
 
 ## Source Files and Their Roles
 
-`MainProgram.java` is the main file that creates a `HybridSymbolTable` and calls methods that pass in data into it. Apart from inputting data, this file also calls methods that modify and delete the said data. Modifying includes sorting the data. Finally, this file is the main driver of printing the subject headings to the console.
+`MainProgram.java` is the main file that creates a hybrid symbol table and calls methods that pass in data into it. Apart from inputting data, this file also calls methods that modify and delete the said data. Modifying includes sorting the data. Finally, this file is the main driver of printing the subject headings to the console.
 
 `HybridSymbolTable.java` is the actual implementation of the PHP array data structure in Java. It holds a generic Java class that implements `Iterable`. It works as a symbol table, storing key and value pairs where the keys are of Java `String` type and the values are of parameter type `V`. The underlying storage mechanism uses a linear probing hash table. This allows methods such as `put()`, `get()`, and `unset()` to be essentially done in `O(1)` time. The hash table size is resized to twice the size when the table is at least half-full. The linked list is used to keep track of the items in sequential order. This will be based on how they are inserted into the hybrid symbol table. 
 
