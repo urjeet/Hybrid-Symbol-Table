@@ -1,4 +1,4 @@
-# HybridSymbolTable
+# Hybrid Symbol Table
 ***
 An implementation of a hybrid symbol table that provides hash table access, indexed integer access, and sequential access (using an iterator). This implementation was used to model an array data type in the PHP Language. The PHP array, unlike that of Java, is a hybrid of a hash table and linked list. I completed this project for a University assignment.  
 
